@@ -424,6 +424,5 @@ public class ArithmeticGame extends JFrame {
         return rand;
         
     }
-    // ↓ Add this at the very end of the class
-
 }
+
