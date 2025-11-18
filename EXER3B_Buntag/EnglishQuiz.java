@@ -1,0 +1,12 @@
+public class EnglishQuiz extends Quiz {
+    private int numberOfWords;
+
+    public EnglishQuiz(String gameName, int totalQuestions, String subject, String difficultyLevel, int numberOfWords) {
+        super(gameName, totalQuestions, subject, difficultyLevel);
+        this.numberOfWords = numberOfWords;
+    }
+
+    public int getNumberOfWords() {
+        return numberOfWords;
+    }
+}
